@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body{
+    background-color: #F5F5F5;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    background-color: #006f94c9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.263);
+    max-width: 700px;
+    margin: auto;
+
+}
+section{
+    background-color: #F5F5F5;
+    padding: 10px 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+
+    padding: 10px 0;
+
+    color: #1B3A57;
+}
+
+
+header h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+nav ul{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    background-color: #006f94c9;
+
+
+
+}
+nav li{
+    display: inline-block;
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid;
+
+    text-align: center;
+}
+
+main section#principal{
+    /*
+    background-image: url(../imagens/fundo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+}
+main section#principal div#slogan{
+    display: block;
+
+
+}
+main section#principal h2{
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    padding: 7px 0;
+    text-align: center;
+}
+main section#principal h3{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+main section#principal #botao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main section#principal button{
+    margin: 20px;
+    padding: 10px 20px;
+
+    font-size: 1em;
+    border: 1px solid black;
+    background-color: #006f94c9;
+    color: #FFFFFF;
+}
+div.imagem{
+    max-width: 100%;
+    
+}
+div.imagem img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+section#services {
+    padding: 10px 10px;
+}
+section#services span{
+    padding: 0px 10px;
+    vertical-align: top;
+}
+section#services h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+section#services p{
+    color: #5f5f5f;
+    font-size: 1em;
+}
+
+footer{
+    background-color: #1B3A57;
+}
+footer div#contato {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer div#contato p{
+    
+}
+footer p{
+    color: white;
+    display: inline-block;
+}
+footer p#termos{
+    display: block;
+    text-align: center;
+}
+footer #copy{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    nav{
+        display: none;
+    }
+}
